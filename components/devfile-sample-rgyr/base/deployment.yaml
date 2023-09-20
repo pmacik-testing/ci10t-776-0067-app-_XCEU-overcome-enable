@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-rgyr
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/ci10t-776-0067-tenant/ci10t-776-0067-app/devfile-sample-rgyr@sha256:6067d188c9dce2651f78b3fb09e6c19dd72ea20714523a310f9bb11a50d83b3b
         name: my-nodejs
         ports:
         - containerPort: 3001
